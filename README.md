@@ -1,13 +1,14 @@
 ## Unsplash API Project
 
 **Project URL:**
-
+https://react-unsplash-api-project-1111.netlify.app/
 
 **Key Features:**
 
-- Text
-- Text
+- Fetching and displaying images from Unsplash API using React Query and Axios.
+- Toggle between dark and light mode.
+- Hiding secret API key while fetching data.
 
-<a href='' target='_blank'>
-<img src='./src/' width='700' alt='tours project image'>
+<a href='https://react-unsplash-api-project-1111.netlify.app/' target='_blank'>
+<img src='./src/assets/unsplash.jpg' width='700' alt='unsplash project image'>
 </a>

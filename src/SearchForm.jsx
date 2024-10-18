@@ -17,9 +17,12 @@ function SearchForm() {
 
   return (
     <div className='form-container'>
+      <h1 className="heading">Unsplash API Project</h1>
       <form onSubmit={handleSubmit}>
-        <input type='search' name='search' placeholder='flowers' />
-        <button type='submit'>Search</button>
+        <div className="form-fields">
+        <input type='search' name='search' placeholder='flowers' className="form-input" />
+        <button type='submit' className="btn">Search</button>
+        </div>
       </form>
     </div>
   );

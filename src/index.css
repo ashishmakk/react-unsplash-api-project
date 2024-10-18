@@ -111,8 +111,57 @@ main {
   color: #f2f2f2;
 }
 
+.heading {
+  color: #d49f02;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+form {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-fields {
+  margin: 0 auto;
+  max-width: 40rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.form-input {
+  border: 2px solid rgb(156, 156, 156);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: #9a9a9a;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+
+.btn {
+  background: #d49f02;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 0.875rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.image-container {
+  margin-top: 3rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+
 .img {
-  width: 15rem;
+  width: 100%;
   height: 15rem;
   object-fit: cover;
 }
@@ -122,9 +171,17 @@ main {
    ============================================ */
 
 @media screen and (min-width: 768px) {
+  .image-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+
+  .image-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   h1 {
     font-size: 3rem;
     line-height: 1;
